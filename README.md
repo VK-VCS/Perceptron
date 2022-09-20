@@ -3,6 +3,26 @@ Perceptron Implementation
 
 In this project we have implemented a single Neuron and trained it with different gates.
 
+## Perceptron Details
+* Input Nodes : 2
+* Output Node : 1
+* Activation Function: Step
+* Optimizer : Gradient Descent
+* Eta : 0.3
+* Epochs : 10
+
+### Evaluation Metric
+Error = y-y_hat
+where
+y_hat = Predicted Output
+
+### Weight Updation
+W := W + Eta * x' * Error
+where
+Eta = Learning Rate
+
+
+## Training and Prediction
 ### AND 
 
 x1 |x2 |Expected Output
@@ -55,3 +75,5 @@ def main(data, modelName, plotName, eta, epochs):
     save_model(model, filename=modelName)
     save_plot(df, plotName, model)
 ```
+
+
