@@ -4,8 +4,8 @@ Perceptron Implementation
 In this project we have implemented a single Neuron and trained it with different gates.
 
 ## Perceptron Details
-* Input Nodes : 2
-* Output Node : 1
+* Inputs : 2
+* Output : 1
 * Activation Function: Step
 * Optimizer : Gradient Descent
 * Eta : 0.3
@@ -60,7 +60,7 @@ x1 |x2 |Expected Output
 
 ## Conclusion
 
-From the above plots we can understand that the Single Neuron classified well for the AND, OR gates but failed to classify for XOR logic, hence we need multi layer Nural Network for understanding complex logic.
+From the above plots we can understand that the Single Neuron classified well for the AND, OR gates but failed to classify for XOR logic, hence we need multi layer Neural Network for understanding complex logic.
 
 ## Python code
 
