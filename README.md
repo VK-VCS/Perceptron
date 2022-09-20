@@ -60,7 +60,7 @@ x1 |x2 |Expected Output
 
 ## Conclusion
 
-Single Neuron understood or learned well the AND, OR gates but failed to do the correct prediction for XOR logic, hence we need multi layer Nural Network for understanding complex logic.
+From the above plots we can understand that the Single Neuron classified well for the AND, OR gates but failed to classify for XOR logic, hence we need multi layer Nural Network for understanding complex logic.
 
 ## Python code
 
