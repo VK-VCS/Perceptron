@@ -3,7 +3,7 @@ Perceptron Implementation
 
 In this project we have implemented a single Neuron and trained it with different gates.
 
-###AND 
+### AND 
 
 x1 |x2 |Expected Output
 -|-|-
@@ -12,10 +12,10 @@ x1 |x2 |Expected Output
 1|0|0
 1|1|1
 
-####Actual Prediction
+#### Actual Prediction
 ![sample Image](plots/and.png)
 
-###OR 
+### OR 
 
 x1 |x2 |Expected Output
 -|-|-
@@ -24,9 +24,9 @@ x1 |x2 |Expected Output
 1|0|1
 1|1|1
 
-####Actual Prediction
+#### Actual Prediction
 ![sample Image](plots/or.png)
-###XOR
+### XOR
 
 x1 |x2 |Expected Output
 -|-|-
@@ -35,10 +35,10 @@ x1 |x2 |Expected Output
 1|0|1
 1|1|0
 
-####Actual Prediction
+#### Actual Prediction
 ![sample Image](plots/xor.png)
 
-##Conclusion
+## Conclusion
 
 Single Neuron understood or learned well the AND, OR gates but failed to do the correct prediction for XOR logic, hence we need multi layer Nural Network for understanding complex logic.
 
